@@ -1,9 +1,9 @@
 {
-    "name": "𝗔𝗟𝗣𝗛𝗔 𝗨𝗦𝗘𝗥𝗕𝗢𝗧",
-    "logo": "https://telegra.ph/file/1a1dae69a11e98c47c34e.jpg",
+    "name": "XQUEEN CLONE BOT WITH ID REPO",
+    "logo": "https://files.catbox.moe/f8i9s1.jpg",
     "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
     "keywords": ["pyrogram", "userbot"],
-    "repository": "https://github.com/TEAMPURVI/ALPHA_USERBOT",
+    "repository": "https://github.com/ASIFXQUEEN/LATESTFASTUSERBOT2.0",
   "stack": "container",
     "env": {
         "STRING_SESSION1": {
@@ -18,12 +18,12 @@
         "SUDO_USERS": {
             "description": "don't Change this there /id",
             "required": true,
-            "value": "6051510669"
+            "value": ""
         },
         "OWNER_ID": {
             "description": "Fill there your I'd",
             "required": true,
-            "value": "6051510669"
+            "value": ""
         },
         "BOT_TOKEN": {
             "description": "fill with your bot token get from @BotFather on telegram",
