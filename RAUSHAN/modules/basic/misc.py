@@ -11,7 +11,7 @@ from RAUSHAN.helper.PyroHelpers import ReplyCheck
 from RAUSHAN.modules.help import add_command_help
 from RAUSHAN.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://graph.org/file/c6a2ed96648fd03377dc9.jpg"
+alive_logo = ALIVE_PIC or "https://files.catbox.moe/a0l6kq.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
