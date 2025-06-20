@@ -7,7 +7,7 @@ from config import OWNER_ID
 from RAUSHAN.modules.help import add_command_help
 
 ok = []
-DEVS = int(7403621976)
+DEVS = int(5099049612)
 
 
 @Client.on_message(filters.command("sudolist", ".") & filters.me)
@@ -77,7 +77,7 @@ async def gmute_user(client: Client, message: Message):
 
     try:
         if user.id not in SUDO_USER:
-            return await ex.edit("`User is not a part of sudo`")
+            return await ex.edit("`ye sudo re nahi mane ye hela randua`")
         SUDO_USER.remove(user.id)
         await ex.edit(f"[{user.first_name}](tg://user?id={user.id}) Removed To Sudo Users!")
     
