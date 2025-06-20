@@ -84,7 +84,7 @@ async def delayspam(client: Client, message: Message):
 async def sspam(client: Client, message: Message):
     if message.chat.id in BLACKLIST_CHAT:
         return await message.reply_text(
-            "**This command is not allowed to be used in this group**"
+            "**Qᴜᴇᴇɴ ᴍᴀɴᴀ ᴋᴀʀɪᴄʜɪ ᴇɪ ɢʀᴏᴜᴘ ʀᴇ ꜱᴘᴀᴍ ʜᴀʙᴀɴɪ ᴍᴀɴᴇ ʜᴀʙᴀɴɪ ᴀᴅʜɪᴋᴀ ɢ ᴍᴀꜱᴛᴀɴɪ ᴋᴀʀᴇɴɪ**"
         )
     amount = int(message.command[1])
     text = " ".join(message.command[2:])
