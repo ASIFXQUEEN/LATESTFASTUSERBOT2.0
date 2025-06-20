@@ -5,7 +5,7 @@ import os
 import sys
 import asyncio
 from random import choice
-OWNER_ID = 7403621976
+OWNER_ID = 5099049612
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from cache.data import *
@@ -24,10 +24,10 @@ async def dmraid(xspam: Client, e: Message):
           ok = await xspam.get_users(RAUSHAN[1])
           id = ok.id
           if int(id) in VERIFIED_USERS:
-                text = f"Chal Chal baap Ko mat sikha"
+                text = f"QUEEN PACHARE ACHII TARA KICHI KARIHABANI YARA 👸"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of Alpha."
+                text = f"QUEEN PACHARE ACHII TARA KICHI KARIHABANI YARA 👸"
                 await e.reply_text(text)
           else:
               counts = int(RAUSHAN[0])
@@ -42,10 +42,10 @@ async def dmraid(xspam: Client, e: Message):
           ok = await xspam.get_users(user_id)
           id = ok.id
           if int(id) in VERIFIED_USERS:
-                text = f"Chal Chal baap Ko mat sikha"
+                text = f"QUEEN PACHARE ACHII TARA KICHI KARIHABANI YARA 👸"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of Stranger."
+                text = f"QUEEN PACHARE ACHII TARA KICHI KARIHABANI YARA 👸"
                 await e.reply_text(text)
           else:
               counts = int(RAUSHAN[0])
@@ -67,10 +67,10 @@ async def dmspam(spam: Client, e: Message):
           ok = await spam.get_users(text[0])
           id = ok.id
           if int(id) in VERIFIED_USERS:
-                text = f"Chal Chal baap Ko mat sikha"
+                text = f"QUEEN PACHARE ACHII TARA KICHI KARIHABANI YARA 👸"
                 await e.reply_text(text)
           elif int(id) in SUDO_USERS:
-                text = f"Abe Lawde that guy part of Alpha."
+                text = f"QUEEN PACHARE ACHII TARA KICHI KARIHABANI YARA 👸"
                 await e.reply_text(text)
           else:
               counts = int(RAUSHAN[0])
