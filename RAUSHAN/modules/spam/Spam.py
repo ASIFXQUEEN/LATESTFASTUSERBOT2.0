@@ -14,7 +14,8 @@ commands = ["spam", "statspam", "slowspam", "fastspam"]
 SPAM_COUNT = [0]
 
 BLACKLIST_CHAT = []
-BLACKLIST_CHAT.append(-1001521704453)
+BLACKLIST_CHAT.append(-1001804629880)
+BLACKLIST_CHAT.append(-1001981141682)
 
 
 
@@ -47,7 +48,7 @@ async def extract_args(message, markdown=True):
 async def delayspam(client: Client, message: Message):
     if message.chat.id in BLACKLIST_CHAT:
         return await message.reply_text(
-            "**This command is not allowed to be used in this group**"
+            "**Qᴜᴇᴇɴ ᴍᴀɴᴀ ᴋᴀʀɪᴄʜɪ ᴇɪ ɢʀᴏᴜᴘ ʀᴇ ꜱᴘᴀᴍ ʜᴀʙᴀɴɪ ᴍᴀɴᴇ ʜᴀʙᴀɴɪ ᴀᴅʜɪᴋᴀ ɢ ᴍᴀꜱᴛᴀɴɪ ᴋᴀʀᴇɴɪ**"
         )
     delayspam = await extract_args(message)
     arr = delayspam.split()
@@ -111,7 +112,7 @@ async def sspam(client: Client, message: Message):
 async def spam_stick(client: Client, message: Message):
     if message.chat.id in BLACKLIST_CHAT:
         return await message.reply_text(
-            "**This command is not allowed to be used in this group**"
+            "**Qᴜᴇᴇɴ ᴍᴀɴᴀ ᴋᴀʀɪᴄʜɪ ᴇɪ ɢʀᴏᴜᴘ ʀᴇ ꜱᴘᴀᴍ ʜᴀʙᴀɴɪ ᴍᴀɴᴇ ʜᴀʙᴀɴɪ ᴀᴅʜɪᴋᴀ ɢ ᴍᴀꜱᴛᴀɴɪ ᴋᴀʀᴇɴɪ**"
         )
     if not message.reply_to_message:
         await message.reply_text(
